@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <center><h2>Página Inicial</h2></center>
       <Contador />
-      <ComponentButton />
+      <ComponenteButton />
       <ComponenteInput />
       <MudaTema />
     </div>
