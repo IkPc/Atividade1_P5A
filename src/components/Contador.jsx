@@ -6,8 +6,8 @@ const Contador = () => {
 
     return (
         <View>
-            <Text>Primeira Atividade</Text>
-            <Text>Current state: {state}</Text>
+            <h3>Primeira Atividade</h3>
+            <Text>Valor atual: {state}</Text>
             <Button
                 onPress={() => setState(state + 1)}
                 title="Incrementar"
