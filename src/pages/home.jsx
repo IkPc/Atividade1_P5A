@@ -1,6 +1,6 @@
 import React from 'react';
 import Contador from '../components/Contador';
-import ComponentButton from '../components/ComponenteButton';
+import ComponenteButton from '../components/ComponenteButton';
 import ComponenteInput from '../components/ComponenteInput';
 import MudaTema from '../components/MudaTema';
 
