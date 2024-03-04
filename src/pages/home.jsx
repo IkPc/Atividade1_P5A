@@ -1,15 +1,17 @@
 import React from 'react';
 import Contador from '../components/Contador';
-import Atv2 from '../components/atividade2';
-import Atv3 from '../components/atividade3';
-import Atv4 from '../components/atividade4';
-import Atv5 from '../components/atividade5';
+import ComponentButton from '../components/ComponenteButton';
+import ComponenteInput from '../components/ComponenteInput';
+import MudaTema from '../components/MudaTema';
 
 const Home = () => {
   return (
     <div>
       <center><h2>Página Inicial</h2></center>
       <Contador />
+      <ComponentButton />
+      <ComponenteInput />
+      <MudaTema />
     </div>
   );
 };
